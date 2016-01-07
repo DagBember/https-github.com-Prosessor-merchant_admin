@@ -1,0 +1,457 @@
+﻿
+.dashboard_cell
+{
+    margin-top:0px; /* 19 oct 10 er bra */
+    padding:10px; /* 19 oct cells lower than the green panel */
+
+
+    margin-top:10px; /* 19 oct 10 er bra */
+    padding:5px; /* 19 oct cells lower than the green panel */
+
+
+    /* 19 oct margin:10px; */
+    /* 19 oct padding:5px; */
+    overflow:hidden;
+    
+    /* 19 oct border: 1px solid rgb(230,230,230); */
+    
+    /* 19 oct border-radius:6px; */
+    
+    background-color:rgb(247,247,247);
+}
+
+.bember_table_header
+{
+    padding:5px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    border: 1px solid rgb(230,230,230);
+    background-color:rgb(255,255,255);
+    color:rgb(50,50,50);
+}
+
+.bember_table_text_cell
+{
+    border: 1px dotted rgb(230,230,230);
+    padding:5px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:normal;
+    background-color:rgb(255,255,255);
+    color:rgb(50,50,50);
+}
+
+.bember_table_number_cell
+{
+    border: 1px dotted rgb(230,230,230);
+    text-align:right;
+    padding:5px;
+    font-size:10px;
+    font-weight:normal;
+    background-color:rgb(255,255,255);
+    color:rgb(0,0,0);
+}
+
+.bember_table_date_cell
+{
+    padding:5px;
+    font-size:10px;
+    font-weight:normal;
+    background-color:rgb(255,255,255);
+    color:rgb(0,0,0);
+}
+
+
+.bember_table_sum_text
+{
+    padding:5px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    border: 1px solid rgb(230,230,230);
+    background-color:rgb(255,255,255);
+    color:rgb(50,50,50);
+}
+
+.bember_table_sum_number
+{
+    padding:5px;
+    text-align:right;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    border: 1px solid rgb(230,230,230);
+    background-color:rgb(255,255,255);
+    color:rgb(50,50,50);
+}
+
+
+
+/* START GREEN LAYOUT */
+
+.dashboard_container_relative
+{
+    position:relative;
+    margin-top:20px;
+    float:left;
+}
+
+
+.dashboard_01_container 
+{
+    float:left;
+    border:1px solid rgb(133,207,249);
+    font-family:Arial;
+
+}
+
+.dashboard_02_container 
+{
+    float:left;
+    border:2px solid rgb(70,192,252);    
+}
+
+.dashboard_03_container 
+{
+    float:left;
+    background-color:rgb(37,126,98);
+    
+    /* border:1px solid rgb(53,152,164); */
+}
+
+.dashboard_04_container {
+    float:left;
+    padding:10px;
+    background-color:rgb(37,126,98);
+    color:rgb(136,181,158);
+}
+
+.dashboard_frame_container {
+    float:left;
+    width:100%;
+    padding:20px;
+    background-color:rgb(37,126,98);
+    color:rgb(136,181,158);
+}
+
+
+.dashboard_01_heading {
+    float:left;
+    background-color:rgb(37,126,98);
+    color:rgb(136,181,158);
+}
+
+.dashboard_text_data_01 {
+    color:rgb(255,255,255);
+    font-size:40px;
+    font-weight:bold;
+}
+
+.dashboard_text_data_02 {
+    color:rgb(255,255,255);
+    font-size:30px;
+    font-weight:bold;
+}
+
+.dashboard_text_data_03 {
+    color:rgb(255,255,255);
+    font-size:22px;
+    font-weight:bold;
+}
+
+
+
+.dashboard_text_label_01 {
+    color:rgb(255,255,255);
+    font-size:25px;
+    font-weight:bold;
+}
+
+.dashboard_text_label_02 {
+    color:rgb(136,181,158);
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+.dashboard_inner_frame {
+    float:left;
+    border:1px rgb(136,181,158) solid;
+}
+
+
+
+.dashboard_line_300 {
+    float:left;
+    background-color:rgb(136,181,158);
+    width:300px;
+    height:1px;
+}
+
+.dashboard_line_300_relative {
+    position:relative;
+    
+    background-color:rgb(136,181,158);
+    width:300px;
+    height:1px;
+}
+
+.dashboard_text_label_02_absolute {
+    background-color:rgb(37,126,98);
+    position:absolute;  
+    top:5px;
+    left:0px;  
+    color:rgb(136,181,158);
+    font-size:12px;
+    font-weight:bold;
+}
+
+.dashboard_text_data_03_absolute {
+    background-color:rgb(37,126,98);
+    position:absolute;
+    top:5px;
+    left:0px;  
+    color:rgb(255,255,255);
+    font-size:22px;
+    font-weight:bold;
+}
+
+
+.dashboard_01_border {
+    border:1px solid rgb(122,174,157);
+    background-color:rgb(37,126,98);
+    color:rgb(255,255,255);
+    font-size:22px;
+}
+
+
+
+.dashboard_square_0_heading_1
+{
+    color:rgb(255,255,255);
+    font-size:20px;
+}
+
+.dashboard_square_0_heading_2
+{
+    color:rgb(255,255,255);
+    font-size:12px;
+}
+
+.dashboard_square_0_heading_3
+{
+    color:rgb(255,255,255);
+    background-color:rgb(37,126,98);    
+    font-size:10px;
+}
+
+
+.dashboard_square_0_value_1
+{
+    color:rgb(255,255,255);
+    font-size:16px;
+}
+
+.dashboard_square_0_value_2
+{
+    color:rgb(200,200,200);
+    font-size:14px;
+}
+
+
+
+
+
+.member_base_heading
+{
+    color:rgb(255,255,255);
+    font-family:Forza-Book;
+    font-size:24px;    
+}
+
+
+.member_number_of
+{
+    color:rgb(255,255,255);
+    font-family:Forza-Book;
+    font-size:18px;    
+}
+
+.member_number_of_value
+{
+    color:rgb(255,255,255);
+    font-family:Forza-Book;
+    font-size:52px;    
+}
+
+.member_left_heading_small_value
+{
+    color:rgb(144,189,175);
+    font-family:Forza-Book;
+    font-size:10px;    
+}
+
+.member_left_small_value
+{
+    color:rgb(255,255,255);
+    font-family:Forza-Book;
+    font-size:20px;    
+}
+
+
+
+.dashboard_square_1_heading_1
+{
+    color:rgb(255,255,255);
+    font-size:20px;
+}
+
+.dashboard_square_1_heading_2
+{
+    float:left;
+    margin-top:1px;
+    /* background-color:rgb(37,126,98); */
+    /* color:rgb(255,255,255); */
+    /* font-size:12px; */
+}
+
+.dashboard_square_1_heading_3
+{
+    color:rgb(255,255,255);
+    font-size:10px;
+}
+
+
+.dashboard_square_1_value_1
+{
+    color:rgb(255,255,255);
+    font-size:16px;
+}
+
+.dashboard_square_1_value_2
+{
+    color:rgb(200,200,200);
+    font-size:14px;
+}
+
+/* END GREEN LAYOUT */
+
+
+.bember_burger_line
+{
+    background-color:rgb(37,126,98);
+    margin-top:3px;
+    height:3px;
+    width:17px;
+}
+
+.bember_your_memberclub
+{
+    font-family:Gotham-Bold;
+    padding:12px;
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(75,75,75);
+}
+
+@font-face { font-family: Forza-Black; src: url(Forza-Black.otf); }
+@font-face { font-family: Forza-Bold; src: url(Forza-Bold.otf); }
+@font-face { font-family: Forza-Book; src: url(Forza-Book.otf); }
+@font-face { font-family: Forza-Light; src: url(Forza-Light.otf); }
+@font-face { font-family: Forza-Medium; src: url(Forza-Medium.otf); }
+@font-face { font-family: Forza-Thin; src: url(Forza-Thin.otf); }
+@font-face { font-family: Gotham-Black; src: url(Gotham-Black.otf); }
+@font-face { font-family: Gotham-Bold; src: url(Gotham-Bold.otf); }
+@font-face { font-family: Gotham-Book; src: url(Gotham-Book.otf); }
+@font-face { font-family: Gotham-Light; src: url(Gotham-Light.otf); }
+@font-face { font-family: Gotham-Medium; src: url(Gotham-Medium.otf); }
+
+.bember_month_box, .bember_month_box_toggled
+{
+    cursor:pointer;
+    margin-left:15px;
+    float:right;
+    color:rgb(152,152,152);
+    padding:10px;
+    font-family:Gotham-Book;
+    font-size:12px;
+    border: 3px solid rgb(152,152,152);
+    border-radius:40px;
+}
+
+.bember_month_box_toggled
+{
+    /* background-color:rgb(37,126,98); */
+    font-family:Gotham-Medium;
+    border: 3px solid rgb(37,126,98);
+    color:rgb(37,126,98);
+}
+
+.top_boxes_heading
+{
+    position:absolute;top:5px;background-color:rgb(37,126,98);font-family:Forza-Book;font-size:12px;color:rgb(144,189,175);
+}
+
+
+.top_boxes_big_number_heading 
+{
+    font-family:Forza-Book;font-size:12px;color:rgb(255,255,255);
+}
+
+
+.top_boxes_big_number /* dashboard_square_1_value_1  */
+{
+    background-color:rgb(37,126,98);font-family:Forza-Book;font-size:38px;color:rgb(255,255,255);
+}
+
+.top_boxes_small_number /* dashboard_square_1_value_1  */
+{
+    background-color:rgb(37,126,98);font-family:Forza-Book;font-size:20px;color:rgb(255,255,255);
+}
+
+
+.s_conversion_heading { float:left;margin-bottom:30px;font-family:Forza-Book;font-size:24px; color:rgb(74,74,74);}
+
+.s_1_2_1_NotMembers { float:left;font-family:Forza-Book;font-size:17px; color:rgb(165,165,164);}
+
+.s_1_2_2_NotMembersValue { float:left;font-family:Forza-Light;font-size:34px;color:rgb(74,74,74);}
+
+
+.s_2_2_1_ReturnsMobileNumber { float:left;font-family:Forza-Book;font-size:17px;color:rgb(165,165,164);}
+.s_2_2_2_ReturnsMobileNumberPercent { float:left;font-family:Forza-Light;font-size:34px;}
+.s_2_2_4_ReturnsMobileNumberValue { float:left;font-family:Forza-Book;font-size:12px;color:rgb(165,165,164);}
+
+.s_3_1_1_SignsDealPrePercent { float:left;font-family:Forza-Book;font-size:10px; padding:2px;border:solid 1px rgb(193,193,193);background:rgb(255,255,255);border-radius:4px;}
+
+        
+.s_3_2_1_SignsDeal { float:left;font-family:Forza-Book;font-size:10px;margin-top:4px;}
+.s_3_2_2_TotalConversion { float:left;font-family:Forza-Book;font-size:17px;color:rgb(165,165,164);}
+.s_3_2_3_TotalConversionPercent { float:left;font-family:Forza-Light;font-size:34px;}
+
+.s_3_2_5_TotalConversionNumber { float:left;font-family:Forza-Book;font-size:12px;color:rgb(165,165,164);}
+
+
+.shop_result_left_part
+{
+    font-family:Forza-Bold;font-size:14px;
+}
+
+.shop_result_right_part
+{
+    font-family:Forza-Book;font-size:14px;
+}
+
+.shop_result_light { background-color:rgb(247,247,247); }
+
+.shop_result_dark { background-color:rgb(235,235,235); }
+
+
+.shop_result_col_1 { font-family:Forza-Book;font-size:12px;color:rgb(74,74,74);width:120px;}
+.shop_result_col_2 { font-family:Forza-Book;font-size:12px;color:rgb(244,157,18);width:100px;}
+.shop_result_col_3 { font-family:Forza-Book;font-size:12px;color:rgb(36,126,98);width:100px;}
+.shop_result_col_4 { width:25px;}
+.shop_result_col_5 { font-family:Forza-Book;font-size:12px;color:rgb(160,160,160);width:100px;}
+
+.table_line { background-color:rgb(235,235,235);height:2px;width:100%;margin-top:0px; margin-bottom:30px;}
+

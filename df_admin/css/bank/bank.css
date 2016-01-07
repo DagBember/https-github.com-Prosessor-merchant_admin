@@ -1,0 +1,220 @@
+﻿
+@font-face { font-family: Forza-Black; src: url(Forza-Black.otf); }
+@font-face { font-family: Forza-Bold; src: url(Forza-Bold.otf); }
+@font-face { font-family: Forza-Book; src: url(Forza-Book.otf); }
+@font-face { font-family: Forza-Light; src: url(Forza-Light.otf); }
+@font-face { font-family: Forza-Medium; src: url(Forza-Medium.otf); }
+@font-face { font-family: Forza-Thin; src: url(Forza-Thin.otf); }
+@font-face { font-family: Gotham-Black; src: url(Gotham-Black.otf); }
+@font-face { font-family: Gotham-Bold; src: url(Gotham-Bold.otf); }
+@font-face { font-family: Gotham-Book; src: url(Gotham-Book.otf); }
+@font-face { font-family: Gotham-Light; src: url(Gotham-Light.otf); }
+@font-face { font-family: Gotham-Medium; src: url(Gotham-Medium.otf); }
+
+.global_frame
+{
+    float:left;
+    align:center;
+    padding:50px;
+    background-color:rgb(246,246,246);
+    border:1px solid rgb(100,100,100); 
+    
+    /*
+    border-radius:6px;
+    
+    -webkit-box-shadow: -3px 0px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 0px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: -3px 0px 50px 0px rgba(0,0,0,0.75);    
+*/
+}
+
+.main_table_outline_free
+{    
+    margin-top:0px;
+    width:;
+}
+
+.main_table_outline_100_percent
+{    
+    margin-top:0px;
+    width:100%;
+}
+
+
+.main_table_outline_max_width_pixels
+{    
+    margin-top:0px;
+    width:475px;
+}
+
+
+.send_phone_button_passive
+{
+
+    cursor:pointer;
+    color:rgb(200,200,200);
+    font-family:Arial;
+    background-color:rgb(100,137,100);
+    border-radius:5px;
+    border:2px rgb(100,100,100) solid; 
+    padding:10px;
+}
+
+.send_phone_button_active
+{
+    cursor:pointer;
+    color:rgb(255,255,255);
+    font-family:Arial;
+    background-color:rgb(100,137,100);
+    border-radius:5px;
+    border:2px rgb(100,100,100) solid; 
+    padding:10px;
+}
+
+.bember_thanks_field
+{
+    color:rgb(255,255,255);
+    font-family:Arial;
+    background-color:#257e62;
+    border-radius:5px;
+    border:2px rgb(100,100,100) solid; 
+    padding:10px;
+}
+
+.i_butikken_heading 
+{    
+    position:absolute;
+
+    top:0px;
+    left:0px;
+
+    float:left;
+    color: rgb(37,126,98);
+    padding:10px;
+    font-family:Arial;
+    background-color:rgb(246,246,246);
+    border-radius:5px;
+    border:2px rgb(37,126,98) solid; 
+}
+
+.line_100
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:20px;
+    width:100%;
+    border-bottom:2px rgb(37,126,98) solid;     
+}
+
+.i_butikken
+{
+    margin-top:20px;
+    color:rgb(64,64,64);
+    padding:10px;
+    padding-left:0px;
+    font-family:Arial;
+}
+
+.bember_end_col_2
+{
+    float:left;    
+    color:rgb(64,64,64);    
+    font-family:Arial;    
+    border-radius:5px;     
+    padding:10px;
+}
+
+.col_2_td
+{    
+    border-top: 1px solid rgb(64,64,64);
+    border-bottom: 1px solid rgb(64,64,64);
+}
+
+
+.lmc_area
+{
+    margin-top:10px;
+    color:rgb(0,0,0);    
+    font-family:Arial;    
+    font-size:16px;
+}
+
+.lmc_shop
+{
+    padding:10px;
+    border:1px rgb(77,77,77) solid;
+    border-radius:6px;
+    
+    color:rgb(0,0,0);        
+    font-family:Arial;    
+    font-size:16px;
+}
+
+
+.lmc_shop_text
+{
+    color:rgb(77,77,77);        
+    font-family:Arial;    
+    font-size:12px;
+}
+
+
+.phone_input
+{
+    text-orientation:left;
+    font-family:Arial;    
+    font-size:16px;
+    padding-left:10px;
+    margin-top:10px;    
+    width:70%;
+    border:1px solid rgb(255,255,255);    
+    color:rgb(50,50,50);
+    margin-bottom:10px;
+}
+
+.phone_wrapper
+{
+    margin-top:5px;
+    margin-bottom:5px;
+    background-color:rgb(255,255,255);
+    border-radius:5px;
+    border:1px rgb(100,100,100) solid; 
+    sssssssssspadding:10px;
+}
+
+
+.intro_text_frame_01
+{
+    padding:10px;
+    xxxxxxxxxxborder:1px rgb(77,77,77) solid;
+    border-radius:6px;
+    
+    background-color:rgb(255,255,255);
+    
+    color:rgb(0,0,0);        
+    font-family:Arial;    
+    font-weight:bold;
+    font-size:16px;
+}
+
+
+.intro_text_02
+{
+    color:rgb(77,77,77);        
+    font-family:Arial;    
+    font-size:15px;
+}
+
+.intro_text_03
+{
+    color:rgb(128,128,128);        
+    font-family:Arial;    
+    font-size:15px;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+
