@@ -5,6 +5,7 @@ var ajax = new Ajax();
 
 var globalSessionPrefix = "";
 
+// Init 7 jan
 function Ajax()
 {
 } 
